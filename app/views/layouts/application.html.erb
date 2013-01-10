@@ -19,12 +19,12 @@
 	<header>
 <h1>Melissa's Amazing Poll</h1>
 <nav>
-<ul>
-	<li><a href="/">Home</a></li>
-	<li><a href="/topics/new">Create Topic</a></li>
-	<li><a href="/about.html">About Me</a></li>
-</ul>
-	</nav>
+  <ul>
+    <li><%= link_to 'Home', root_path %></li>
+    <li><%= link_to 'Add a Topic', new_topic_path %></li>
+    <li><%= link_to 'About', pages_about_path %></li>
+  </ul>
+</nav>
 
 	</header>
 
@@ -36,7 +36,7 @@
 
 <%= yield %>
 
-<footer>Funded by Editing Modernism in Canada</footer>
+<footer margin="10px">Funded by Editing Modernism in Canada</footer>
 
 </body>
 </html>

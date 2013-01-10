@@ -26,6 +26,7 @@ body {
 	font-family: Helvetica, sans-serif; 
 
 
+
 }
 
 /*headercode 	
@@ -34,17 +35,25 @@ body {
 header {
 	font-family: Raleway, sans-serif; 
 	width: 90%;
-	color:#444;
+	color:#444
 	padding: 20px;
 	text-align: center;
 	padding:0;
 	margin-top:5px;
 	margin-bottom:30px; 
-	background-image: url(http://farm6.staticflickr.com/5005/5251230861_900cb3119f_o.jpg);
+	background-image: url(https://lh3.googleusercontent.com/-QvffhSKt-kk/Ta-Dffe6h6I/AAAAAAAABB8/vu-CRrRH91I/s576/Risotto%2520ingredients%25202.jpg);
 	background-repeat:no-repeat;
 	background-size:cover;
+	border-style: none;
+	border-color:#cccccc;
+	float:left;
+	padding-top:0px;
+	-moz-border-radius: 15px;
+border-radius: 15px;
+margin: 7px;
 
 }
+
 
 header 	h1 { 
 font-size: 400%;
@@ -68,21 +77,21 @@ header nav li {
  }
 
 header a:link {
-	color:#fafafa;
+	color:#444;
 	text-decoration:none;
 }
 
 header a:visited {
-	color:#fafafa;
+	color:#444;
 }
 
 header a:hover, 
 header a:focus {
-	color:#fafafa;
+	color:#444;
 }
 
 header a:active {
-	color:#fafafa;
+	color:#444;
 }
 
 /* bodycode
@@ -128,4 +137,5 @@ td {
 tbody tr {
 	background-color:transparent;
 }
+
 
