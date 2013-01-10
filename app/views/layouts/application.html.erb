@@ -1,36 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-	
-  <title>Meilssa's amazing poll</title>
-  <link href='http://fonts.googleapis.com/css?family=Stalemate' rel='stylesheet' type='text/css'>
 
-  <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
-  <%= csrf_meta_tags %>
+<title>Meilssa's amazing poll</title>
+<link href='http://fonts.googleapis.com/css?family=Stalemate' rel='stylesheet' type='text/css'>
 
-  
+<%= stylesheet_link_tag    "application", :media => "all" %>
+<%= javascript_include_tag "application" %>
+<%= csrf_meta_tags %>
+
+
 </head>
 
 
 <body>
 
-	<header>
-<h1>Melissa's Amazing Poll</h1>
-<nav>
-<ul><li><a href="/">Home</a></li>
-<li><a href="/topics/new">Create Topic</li>
-<li><a href="/about.html">About Me</li>
-</ul>
-	</nav>
+<header>
+  <h1>Melissa's Amazing Poll</h1>
+  <nav>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/topics/new">Create Topic</a></li>
+      <li><a href="/about.html">About Me</a></li>
+    </ul>
+  </nav>
 
-	</header>
+</header>
 
-	
 
-	<% flash.each do |name, msg| %>
-	<div><%= msg %></div>
-	<% end %>
+
+<% flash.each do |name, msg| %>
+  <div><%= msg %></div>
+  <% end %>
 
 <%= yield %>
 
