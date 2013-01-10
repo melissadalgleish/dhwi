@@ -8,11 +8,21 @@
 </head>
 <body>
 
+	<header>
+<h1>Melissa's Amazing Poll</h1>
+<nav>About Me</nav>
+<nav>Follow Me</nav>
+	</header>
+
+	
+
 	<% flash.each do |name, msg| %>
 	<div><%= msg %></div>
 	<% end %>
 
 <%= yield %>
+
+<footer>Funded by Editing Modernism in Canada</footer>
 
 </body>
 </html>
