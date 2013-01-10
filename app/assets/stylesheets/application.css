@@ -15,15 +15,16 @@
 html {
 
 	background-color:#fafafa;
-}
+	}
 
 body {
 
-	width: 70%;
+	width: 100%;
 	margin: 0 auto;
-	background-color:#fafafa;
+	background-color:transparent;
 	padding: 20px 40px;
 	font-family: Helvetica, sans-serif; 
+
 
 }
 
@@ -31,18 +32,24 @@ body {
 */
 
 header {
-	font-family: Stalemate, cursive, serif; 
+	font-family: Raleway, sans-serif; 
 	width: 90%;
-	color:#26B5AE;
+	color:#444;
 	padding: 20px;
 	text-align: center;
-	font-size: 400%;
-	letter-spacing: 5px; 
 	padding:0;
 	margin-top:5px;
 	margin-bottom:30px; 
+	background-image: url(http://farm6.staticflickr.com/5005/5251230861_900cb3119f_o.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
 
 }
+
+header 	h1 { 
+font-size: 400%;
+letter-spacing: 5px; 
+	}
 
 header nav ul {
 
@@ -57,28 +64,25 @@ header nav li {
  	text-align: center; 
  	font-size: 16px;
  	text-transform: uppercase; 
+ 	margin: 50px;
  }
 
 header a:link {
-	color:#26B5AE;
+	color:#fafafa;
 	text-decoration:none;
 }
 
 header a:visited {
-	color:#26B5AE;
+	color:#fafafa;
 }
 
 header a:hover, 
 header a:focus {
-	color:#26B5AE;
+	color:#fafafa;
 }
 
 header a:active {
-	color:#26B5AE;
-}
-
-h1 {
-	font-size: 100%;
+	color:#fafafa;
 }
 
 /* bodycode
@@ -122,6 +126,6 @@ td {
 	
 
 tbody tr {
-background-color:#fafafa;
+	background-color:transparent;
 }
 
