@@ -11,9 +11,10 @@
  *= require_self
  *= require_tree .
  */
+
 html {
 
-	background-color: #eee;
+	background-color: #fafafa;
 }
 
 body {
@@ -22,46 +23,98 @@ body {
 	margin: 0 auto;
 	background-color: #fafafa;
 	padding: 20px 40px;
-	border: 1px solid #ddd;
+	font-family: Helvetica; sans-serif; 
 
 }
+
+/*headercode 	
+*/
 
 header {
 
-width: 70%;
-border: 1px solid #ddd;
-background-color: #4D4A4B;
-color: #fafafa;
+font-family: Stalemate, cursive, serif; 
+width: 90%;
+color: #26B5AE;
 padding: 20px;
+text-align: center;
+font-size: 400%;
+letter-spacing: 5px; 
+padding:0;
+margin-top:5px;
+margin-bottom:30px; 
 
 }
 
- nav ul {
+header nav ul {
 
  	list-style: none;
  	margin-left:0;
- 	padding-left:0;
- }
+ 	 }
 
- nav li {
+header nav li {
 
  	display:inline;
+ 	font-family: Helvetica; sans-serif;
+ 	text-align: center; 
+ 	font-size: 16px;
+ 	text-transform: uppercase; 
  }
 
 header a:link {
-	color:#fafafa;
+	color:#26B5AE;
 	text-decoration:none;
 }
 
 header a:visited {
-	color:#fafafa;
+	color:#26B5AE;
 }
 
 header a:hover, 
 header a:focus {
-	color:#fafafa;
+	color:#26B5AE;
 }
 
 header a:active {
-	color:#fafafa;
+	color:#26B5AE;
+}
+
+h1 {
+	font-size: 100%;
+}
+
+/* bodycode
+*/
+
+a:link {
+	color:#444;
+	text-decoration:none;
+}
+
+a:visited {
+	color:#444;
+}
+
+a:hover, 
+a:focus {
+	color:#444;
+}
+
+a:active {
+	color:#444;
+}
+
+/* tables
+*/
+
+table {
+width: 100%
+
+}
+
+thead th {
+	border-bottom: 2px solid #ccc;
+	text-align: left; 
+	padding: 5px 0;
+
+
 }
