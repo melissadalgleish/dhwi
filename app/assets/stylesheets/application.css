@@ -14,14 +14,14 @@
 
 html {
 
-	background-color: #fafafa;
+	background-color:#fafafa;
 }
 
 body {
 
 	width: 70%;
 	margin: 0 auto;
-	background-color: #fafafa;
+	background-color:#fafafa;
 	padding: 20px 40px;
 	font-family: Helvetica, sans-serif; 
 
@@ -33,7 +33,7 @@ body {
 header {
 	font-family: Stalemate, cursive, serif; 
 	width: 90%;
-	color: #26B5AE;
+	color:#26B5AE;
 	padding: 20px;
 	text-align: center;
 	font-size: 400%;
@@ -122,6 +122,6 @@ td {
 	
 
 tbody tr {
-background-color: #fafafa;
+background-color:#fafafa;
 }
 
