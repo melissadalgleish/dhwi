@@ -48,12 +48,12 @@ header nav ul {
 
  	list-style: none;
  	margin-left:0;
- 	 }
+}
 
 header nav li {
 
  	display:inline;
- 	font-family: Helvetica; sans-serif;
+ 	font-family: Helvetica, sans-serif;
  	text-align: center; 
  	font-size: 16px;
  	text-transform: uppercase; 
